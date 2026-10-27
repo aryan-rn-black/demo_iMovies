@@ -1,8 +1,28 @@
-# React + Vite
+# 🎬 IMovies — Frontend Client (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This directory contains the client single-page application for the **IMovies Cinema & Ticket Management System**.
 
-Currently, two official plugins are available:
+## 🚀 Quick Start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Verify environment configuration in `.env`:
+   ```env
+   VITE_BACKEND_URL=http://localhost:3000
+   ```
+
+3. Launch the development server:
+   ```bash
+   npm run dev
+   ```
+   *Frontend dev server will run on `http://localhost:5173`.*
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+For full system architecture, API documentation, and backend setup instructions, please refer to the [Root README](../readme.md).
