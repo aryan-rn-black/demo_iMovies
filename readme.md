@@ -512,6 +512,3 @@ The frontend uses a custom-crafted **Aurora Glassmorphism** design system:
 
 ---
 
-## 📄 License
-
-This project is open-source and licensed under the [ISC License](https://opensource.org/licenses/ISC). Feel free to use, modify, and distribute for educational or commercial purposes.
